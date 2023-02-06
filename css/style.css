@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'BigShoulders';
+  src: url('fonts/BigShouldersInlineText-VariableFont_wght.ttf');
+}
+
+h1 {
+  font-family: 'BigShoulders';
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(3, 120px);
+  justify-content: center;
+}
+
+nav > button {
+  font-family: Monospace;
+  font-size: 20px;
+  font-weight: bold;
+  background: none;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+nav > button:hover {
+  border: 2px solid black;
+  border-bottom: none;
+}
