@@ -1,13 +1,18 @@
 @font-face {
   font-family: 'BigShoulders';
-  src: url('fonts/BigShouldersInlineText-VariableFont_wght.ttf');
+  src: url('../fonts/BigShouldersInlineText-VariableFont_wght.ttf');
 }
 
 h1 {
   font-family: 'BigShoulders';
+  font-weight: 900;
+  font-size: 40px;8
+  font-size: 40px;
+  font-style: italic;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   text-align: center;
+  color: red;8l
 }
 
 nav {
