@@ -1,0 +1,28 @@
+.homeDiv {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: max(16px, 3vw);
+  font-family: Monospace;
+}
+
+img {
+  width: 30vw;
+  margin-bottom: 2vh;
+}
+
+p {
+  color: white;
+  text-align: center;
+  padding: 6px;
+}
+
+p:last-child {
+  font-family: 'BigShoulders';
+  font-style: italic;
+  font-weight: 900;
+  font-size: max(20px, 3.5vw);
+  color: red;
+}
