@@ -26,17 +26,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mod
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"homeDiv\": () => (/* binding */ homeDiv)\n/* harmony export */ });\n/* harmony import */ var _images_pizza_slice_icon_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../images/pizza-slice-icon.png */ \"./src/images/pizza-slice-icon.png\");\n\n\nconst homeDiv = document.createElement('div');\nconst pizzaSliceIcon = document.createElement('img');\nconst introductionMessage = document.createElement('p');\nconst welcomeMessage = document.createElement('p');\nconst restaurantName = document.createElement('p');\n\npizzaSliceIcon.src = _images_pizza_slice_icon_png__WEBPACK_IMPORTED_MODULE_0__;\nintroductionMessage.textContent = 'We have the best pizza in the country.\\nAll you need is our pizza!'\nwelcomeMessage.textContent = 'You have tried the rest, now taste the BEST!\\nWelcome to'\nrestaurantName.textContent = 'La Pizza';\n\nhomeDiv.append(\n  pizzaSliceIcon,\n  introductionMessage,\n  welcomeMessage,\n  restaurantName,\n  )\n  \n  \n\n\n\n\n\n//# sourceURL=webpack://restaurant_page/./src/modules/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"homeDiv\": () => (/* binding */ homeDiv)\n/* harmony export */ });\n/* harmony import */ var _assets_images_pizza_slice_icon_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../assets/images/pizza-slice-icon.png */ \"./src/assets/images/pizza-slice-icon.png\");\n\n\nconst homeDiv = document.createElement('div');\nconst pizzaSliceIcon = document.createElement('img');\nconst introductionMessage = document.createElement('p');\nconst welcomeMessage = document.createElement('p');\nconst restaurantName = document.createElement('p');\n\npizzaSliceIcon.src = _assets_images_pizza_slice_icon_png__WEBPACK_IMPORTED_MODULE_0__;\nintroductionMessage.textContent = 'We have the best pizza in the country.\\nAll you need is our pizza!'\nwelcomeMessage.textContent = 'You have tried the rest, now taste the BEST!\\nWelcome to'\nrestaurantName.textContent = 'La Pizza';\n\nhomeDiv.append(\n  pizzaSliceIcon,\n  introductionMessage,\n  welcomeMessage,\n  restaurantName,\n  )\n  \n  \n\n\n\n\n\n//# sourceURL=webpack://restaurant_page/./src/modules/home.js?");
 
 /***/ }),
 
-/***/ "./src/images/pizza-slice-icon.png":
-/*!*****************************************!*\
-  !*** ./src/images/pizza-slice-icon.png ***!
-  \*****************************************/
+/***/ "./src/assets/images/pizza-slice-icon.png":
+/*!************************************************!*\
+  !*** ./src/assets/images/pizza-slice-icon.png ***!
+  \************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"d63ff35a8b3e957f4695.png\";\n\n//# sourceURL=webpack://restaurant_page/./src/images/pizza-slice-icon.png?");
+eval("module.exports = __webpack_require__.p + \"d63ff35a8b3e957f4695.png\";\n\n//# sourceURL=webpack://restaurant_page/./src/assets/images/pizza-slice-icon.png?");
 
 /***/ })
 
