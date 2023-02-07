@@ -12,10 +12,10 @@ const slicingPizzaImg = document.createElement('img');
 slicingPizzaImg.src = slicingPizzaGif;
 
 //Icons
-const deliveryIcon = document.createElement('img');
-const phoneIcon = document.createElement('img');
-const emailIcon = document.createElement('img');
-const adressIcon = document.createElement('img');
+const deliveryIcon = document.createElement('img').classList.add('icon');
+const phoneIcon = document.createElement('img').classList.add('icon');
+const emailIcon = document.createElement('img').classList.add('icon');
+const adressIcon = document.createElement('img').classList.add('icon');
 
 deliveryIcon.src = moped;
 phoneIcon.src = phone;
