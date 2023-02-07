@@ -13,7 +13,6 @@ const restaurantName = document.createElement('p');
 homeDiv.classList.add('homeDiv');
 
 pizzaSliceIcon.src = pizzaSliceImage;
-
 // Add Text
 introductionMessage1.textContent = 'You have tried the rest, now taste the BEST!';
 introductionMessage2.textContent = 'All you need is our pizza!';
