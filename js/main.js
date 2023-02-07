@@ -10,6 +10,16 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/assets/css/contact.css":
+/*!**************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/assets/css/contact.css ***!
+  \**************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant_page/./src/assets/css/contact.css?./node_modules/css-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/assets/css/home.css":
 /*!***********************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/assets/css/home.css ***!
@@ -37,6 +47,16 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 /***/ ((module) => {
 
 eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://restaurant_page/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
+
+/***/ }),
+
+/***/ "./src/assets/css/contact.css":
+/*!************************************!*\
+  !*** ./src/assets/css/contact.css ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ \"./node_modules/style-loader/dist/runtime/styleDomAPI.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertBySelector.js */ \"./node_modules/style-loader/dist/runtime/insertBySelector.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ \"./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ \"./node_modules/style-loader/dist/runtime/insertStyleElement.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ \"./node_modules/style-loader/dist/runtime/styleTagTransform.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_contact_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js!./contact.css */ \"./node_modules/css-loader/dist/cjs.js!./src/assets/css/contact.css\");\n\n      \n      \n      \n      \n      \n      \n      \n      \n      \n\nvar options = {};\n\noptions.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());\noptions.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());\n\n      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, \"head\");\n    \noptions.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());\noptions.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_contact_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"], options);\n\n\n\n\n       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_contact_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"] && _node_modules_css_loader_dist_cjs_js_contact_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals ? _node_modules_css_loader_dist_cjs_js_contact_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals : undefined);\n\n\n//# sourceURL=webpack://restaurant_page/./src/assets/css/contact.css?");
 
 /***/ }),
 
@@ -116,7 +136,17 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_home_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/home.js */ \"./src/modules/home.js\");\n\n\nconst content = document.querySelector('#content');\n\ncontent.appendChild(_modules_home_js__WEBPACK_IMPORTED_MODULE_0__.homeDiv);\n\n\n//# sourceURL=webpack://restaurant_page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_home_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/home.js */ \"./src/modules/home.js\");\n/* harmony import */ var _modules_contact_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/contact.js */ \"./src/modules/contact.js\");\n\n\n\nconst content = document.querySelector('#content');\n\ncontent.appendChild(_modules_contact_js__WEBPACK_IMPORTED_MODULE_1__.contactDiv);\n\n\n//# sourceURL=webpack://restaurant_page/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/modules/contact.js":
+/*!********************************!*\
+  !*** ./src/modules/contact.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"contactDiv\": () => (/* binding */ contactDiv)\n/* harmony export */ });\n/* harmony import */ var _assets_images_slicing_pizza_gif__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../assets/images/slicing_pizza.gif */ \"./src/assets/images/slicing_pizza.gif\");\n/* harmony import */ var _assets_icons_moped_outline_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../assets/icons/moped-outline.svg */ \"./src/assets/icons/moped-outline.svg\");\n/* harmony import */ var _assets_icons_phone_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../assets/icons/phone.svg */ \"./src/assets/icons/phone.svg\");\n/* harmony import */ var _assets_icons_at_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../assets/icons/at.svg */ \"./src/assets/icons/at.svg\");\n/* harmony import */ var _assets_icons_map_marker_outline_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../assets/icons/map-marker-outline.svg */ \"./src/assets/icons/map-marker-outline.svg\");\n/* harmony import */ var _assets_css_contact_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../assets/css/contact.css */ \"./src/assets/css/contact.css\");\n\n\n\n\n\n\n\n\nconst contactDiv = document.createElement('div');\n\nconst slicingPizzaImg = document.createElement('img');\nslicingPizzaImg.src = _assets_images_slicing_pizza_gif__WEBPACK_IMPORTED_MODULE_0__;\n\n//Icons\nconst deliveryIcon = document.createElement('img');\nconst phoneIcon = document.createElement('img');\nconst emailIcon = document.createElement('img');\nconst adressIcon = document.createElement('img');\n\ndeliveryIcon.src = _assets_icons_moped_outline_svg__WEBPACK_IMPORTED_MODULE_1__;\nphoneIcon.src = _assets_icons_phone_svg__WEBPACK_IMPORTED_MODULE_2__;\nemailIcon.src = _assets_icons_at_svg__WEBPACK_IMPORTED_MODULE_3__;\nadressIcon.src = _assets_icons_map_marker_outline_svg__WEBPACK_IMPORTED_MODULE_4__;\n//Text Spans\nconst freeDeliveryMessage = document.createElement('spam');\nconst phoneNumber = document.createElement('spam');\nconst emailAdress = document.createElement('spam');\nconst restaurantAdress = document.createElement('spam');\n\nfreeDeliveryMessage.textContent = 'FREE DELIVERY';\nphoneNumber.textContent = '(000)00000-0000';\nemailAdress.textContent = 'myfakeemail@fake.com';\nrestaurantAdress.textContent = 'Fake Street 00, Fake City, Fake Country';\n\n//Icon && Text spam Containers\nconst deliveryDiv = document.createElement('div');\nconst phoneDiv = document.createElement('div');\nconst emailDiv = document.createElement('div');\nconst adressDiv = document.createElement('div');\n\ndeliveryDiv.append(deliveryIcon, freeDeliveryMessage);\nphoneDiv.append(phoneIcon, phoneNumber);\nemailDiv.append(emailIcon, emailAdress);\nadressDiv.append(adressIcon, restaurantAdress);\n\ncontactDiv.append(\n  slicingPizzaImg,\n  deliveryDiv,\n  phoneDiv,\n  emailDiv,\n  adressDiv\n);\n\n\n\n\n//# sourceURL=webpack://restaurant_page/./src/modules/contact.js?");
 
 /***/ }),
 
@@ -126,7 +156,47 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mod
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"homeDiv\": () => (/* binding */ homeDiv)\n/* harmony export */ });\n/* harmony import */ var _assets_images_pizza_slice_icon_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../assets/images/pizza-slice-icon.png */ \"./src/assets/images/pizza-slice-icon.png\");\n/* harmony import */ var _assets_css_home_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../assets/css/home.css */ \"./src/assets/css/home.css\");\n\n\n\nconst homeDiv = document.createElement('div');\nconst pizzaSliceIcon = document.createElement('img');\nconst introductionMessage1 = document.createElement('p');\nconst introductionMessage2 = document.createElement('p');\nconst introductionMessage3 = document.createElement('p');\nconst welcomeMessage = document.createElement('p');\nconst restaurantName = document.createElement('p');\n\n//Add Values\nhomeDiv.classList.add('homeDiv');\n\npizzaSliceIcon.src = _assets_images_pizza_slice_icon_png__WEBPACK_IMPORTED_MODULE_0__;\n\n// Add Text\nintroductionMessage1.textContent = 'You have tried the rest, now taste the BEST!';\nintroductionMessage2.textContent = 'All you need is our pizza!';\nintroductionMessage3.textContent = 'We have the best pizza in the country.';\n\n\nwelcomeMessage.textContent = 'Welcome to';\n\nrestaurantName.textContent = 'La Pizza';\n\nhomeDiv.append(\n  pizzaSliceIcon,\n  introductionMessage1,\n  introductionMessage2,\n  introductionMessage3,\n  welcomeMessage,\n  restaurantName,\n);\n  \n\n\n\n\n\n\n//# sourceURL=webpack://restaurant_page/./src/modules/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"homeDiv\": () => (/* binding */ homeDiv)\n/* harmony export */ });\n/* harmony import */ var _assets_images_pizza_slice_icon_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../assets/images/pizza-slice-icon.png */ \"./src/assets/images/pizza-slice-icon.png\");\n/* harmony import */ var _assets_css_home_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../assets/css/home.css */ \"./src/assets/css/home.css\");\n\n\n\nconst homeDiv = document.createElement('div');\nconst pizzaSliceIcon = document.createElement('img');\nconst introductionMessage1 = document.createElement('p');\nconst introductionMessage2 = document.createElement('p');\nconst introductionMessage3 = document.createElement('p');\nconst welcomeMessage = document.createElement('p');\nconst restaurantName = document.createElement('p');\n\n//Add Values\nhomeDiv.classList.add('homeDiv');\n\npizzaSliceIcon.src = _assets_images_pizza_slice_icon_png__WEBPACK_IMPORTED_MODULE_0__;\n// Add Text\nintroductionMessage1.textContent = 'You have tried the rest, now taste the BEST!';\nintroductionMessage2.textContent = 'All you need is our pizza!';\nintroductionMessage3.textContent = 'We have the best pizza in the country.';\n\n\nwelcomeMessage.textContent = 'Welcome to';\n\nrestaurantName.textContent = 'La Pizza';\n\nhomeDiv.append(\n  pizzaSliceIcon,\n  introductionMessage1,\n  introductionMessage2,\n  introductionMessage3,\n  welcomeMessage,\n  restaurantName,\n);\n  \n\n\n\n\n\n\n//# sourceURL=webpack://restaurant_page/./src/modules/home.js?");
+
+/***/ }),
+
+/***/ "./src/assets/icons/at.svg":
+/*!*********************************!*\
+  !*** ./src/assets/icons/at.svg ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"0f70304de3ceafc69d47.svg\";\n\n//# sourceURL=webpack://restaurant_page/./src/assets/icons/at.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/icons/map-marker-outline.svg":
+/*!*************************************************!*\
+  !*** ./src/assets/icons/map-marker-outline.svg ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"72e098087414f4d38a4b.svg\";\n\n//# sourceURL=webpack://restaurant_page/./src/assets/icons/map-marker-outline.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/icons/moped-outline.svg":
+/*!********************************************!*\
+  !*** ./src/assets/icons/moped-outline.svg ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"b8a7f7ed8594b514e6d3.svg\";\n\n//# sourceURL=webpack://restaurant_page/./src/assets/icons/moped-outline.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/icons/phone.svg":
+/*!************************************!*\
+  !*** ./src/assets/icons/phone.svg ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"0b454d6aeda1578fa2ba.svg\";\n\n//# sourceURL=webpack://restaurant_page/./src/assets/icons/phone.svg?");
 
 /***/ }),
 
@@ -137,6 +207,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"d63ff35a8b3e957f4695.png\";\n\n//# sourceURL=webpack://restaurant_page/./src/assets/images/pizza-slice-icon.png?");
+
+/***/ }),
+
+/***/ "./src/assets/images/slicing_pizza.gif":
+/*!*********************************************!*\
+  !*** ./src/assets/images/slicing_pizza.gif ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"5a7e61fcf99ac2682fe0.gif\";\n\n//# sourceURL=webpack://restaurant_page/./src/assets/images/slicing_pizza.gif?");
 
 /***/ })
 
