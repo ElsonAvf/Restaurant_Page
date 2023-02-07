@@ -1,0 +1,44 @@
+#contactDiv {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+}
+
+#contactDiv > img {
+  margin: 0;
+}
+
+#contactContainer {
+  display: grid;
+  grid-template-rows: auto;
+  gap: 8px;
+}
+
+.infoContainer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+#deliveryDiv > .icon {
+  margin: 12px 0 25px 0;
+  width: 20vw;
+}
+
+#deliveryDiv > spam {
+  font-weight: bold;
+  font-size: 5vw;
+}
+
+.icon {
+  width: 5vw;
+  margin: 0;
+}
+
+spam {
+  font-size: 3vw;
+  color: white;
+}
