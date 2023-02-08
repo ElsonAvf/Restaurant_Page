@@ -8,15 +8,14 @@
   font-family: Monospace;
 }
 
-img {
+.homeDiv > img {
   width: 30vw;
   margin-bottom: 2vh;
 }
 
 p {
-  color: white;
   text-align: center;
-  padding: 6px;
+  padding: 0 6px;
 }
 
 p:last-child {
