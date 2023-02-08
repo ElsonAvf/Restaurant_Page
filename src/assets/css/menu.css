@@ -1,0 +1,84 @@
+#menuContainer {
+  width: min(100%,750px);
+  height: cal(100% - 32px); /*margin top && bottom*/
+  margin: 16px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, .7fr));
+  grid-auto-rows: 300px;
+  align-content: space-evenly;
+  justify-content: center;
+  gap: 16px;
+}
+
+#pizzaContainer {
+  background-color: rgba(69,69,71,.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#pizzaContainer > img {
+  width: 150px;
+}
+
+#pizzaContainer > h1 {
+  margin: 0;
+  font-size: 30px;
+  font-style: none;
+  color: white;
+}
+
+/*PopUp*/
+#fixedContainer {
+  background-color: rgba(0,0,0,.5);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+#popupContainer {
+  margin: auto;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+#removeButton {
+  background: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  border: none;
+  border-radius: 50%;
+  align-self: flex-end;
+}
+
+#popDiv {
+  height: 400px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2F2F31;
+}
+
+#popDiv > h1 {
+  margin: 0;
+}
+
+#popDiv > img {
+  width: 150px;
+}
+
+#popDiv > p {
+  font-weight: 400;
+  opacity: .8;
+}
+
+#pizzaPrice {
+  align-self: flex-start;
+  font-size: 18px;
+}
