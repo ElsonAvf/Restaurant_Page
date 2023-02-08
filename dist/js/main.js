@@ -136,7 +136,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_home_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/home.js */ \"./src/modules/home.js\");\n/* harmony import */ var _modules_contact_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/contact.js */ \"./src/modules/contact.js\");\n\n\n\nconst content = document.querySelector('#content');\n\ncontent.appendChild(_modules_contact_js__WEBPACK_IMPORTED_MODULE_1__.contactDiv);\n\n\n//# sourceURL=webpack://restaurant_page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_home_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/home.js */ \"./src/modules/home.js\");\n/* harmony import */ var _modules_menu_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/menu.js */ \"./src/modules/menu.js\");\n/* harmony import */ var _modules_contact_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/contact.js */ \"./src/modules/contact.js\");\n\n\n\n\nconst content = document.querySelector('#content');\n\ncontent.appendChild(_modules_menu_js__WEBPACK_IMPORTED_MODULE_1__.menuContainer);\n\n\n//# sourceURL=webpack://restaurant_page/./src/index.js?");
 
 /***/ }),
 
@@ -157,6 +157,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"homeDiv\": () => (/* binding */ homeDiv)\n/* harmony export */ });\n/* harmony import */ var _assets_images_pizza_slice_icon_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../assets/images/pizza-slice-icon.png */ \"./src/assets/images/pizza-slice-icon.png\");\n/* harmony import */ var _assets_css_home_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../assets/css/home.css */ \"./src/assets/css/home.css\");\n\n\n\nconst homeDiv = document.createElement('div');\nconst pizzaSliceIcon = document.createElement('img');\nconst introductionMessage1 = document.createElement('p');\nconst introductionMessage2 = document.createElement('p');\nconst introductionMessage3 = document.createElement('p');\nconst welcomeMessage = document.createElement('p');\nconst restaurantName = document.createElement('p');\n\n//Add Values\nhomeDiv.classList.add('homeDiv');\n\npizzaSliceIcon.src = _assets_images_pizza_slice_icon_png__WEBPACK_IMPORTED_MODULE_0__;\n// Add Text\nintroductionMessage1.textContent = 'You have tried the rest, now taste the BEST!';\nintroductionMessage2.textContent = 'All you need is our pizza!';\nintroductionMessage3.textContent = 'We have the best pizza in the country.';\n\n\nwelcomeMessage.textContent = 'Welcome to';\n\nrestaurantName.textContent = 'La Pizza';\n\nhomeDiv.append(\n  pizzaSliceIcon,\n  introductionMessage1,\n  introductionMessage2,\n  introductionMessage3,\n  welcomeMessage,\n  restaurantName,\n);\n  \n\n\n\n\n\n\n//# sourceURL=webpack://restaurant_page/./src/modules/home.js?");
+
+/***/ }),
+
+/***/ "./src/modules/menu.js":
+/*!*****************************!*\
+  !*** ./src/modules/menu.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"menuContainer\": () => (/* binding */ menuContainer)\n/* harmony export */ });\n/* harmony import */ var _assets_images_margherita_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../assets/images/margherita.png */ \"./src/assets/images/margherita.png\");\n/* harmony import */ var _assets_images_pepperoni_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../assets/images/pepperoni.png */ \"./src/assets/images/pepperoni.png\");\n/* harmony import */ var _assets_images_quatro_formaggi_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../assets/images/quatro-formaggi.png */ \"./src/assets/images/quatro-formaggi.png\");\n/* harmony import */ var _assets_images_marinara_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../assets/images/marinara.png */ \"./src/assets/images/marinara.png\");\n/* harmony import */ var _assets_images_catupiry_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../assets/images/catupiry.png */ \"./src/assets/images/catupiry.png\");\n/* harmony import */ var _assets_images_frutti_di_mare_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../assets/images/frutti-di-mare.png */ \"./src/assets/images/frutti-di-mare.png\");\n/* harmony import */ var _assets_images_portuguese_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./../assets/images/portuguese.png */ \"./src/assets/images/portuguese.png\");\n/* harmony import */ var _assets_images_hawaiian_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./../assets/images/hawaiian.png */ \"./src/assets/images/hawaiian.png\");\n\n\n\n\n\n\n\n\n\n\n\n\n\nclass Pizza {\n  constructor(srcImage, name, ingredients, price) {\n    this.srcImage = srcImage;\n    this.name = name;\n    this.ingredients = ingredients;\n    this.price = price;\n  };\n};\n\nlet menu = [\n  new Pizza(\n    _assets_images_margherita_png__WEBPACK_IMPORTED_MODULE_0__,\n    'Margherita',\n    'Tomato sauce, mozzarella di bufula, fresh basil',\n    '$9.99'),\n  new Pizza(\n    _assets_images_pepperoni_png__WEBPACK_IMPORTED_MODULE_1__,\n    'Pepperoni',\n    'Tomato sauce, mozzarella, pepperoni sausage',\n    '$10.00'),\n  new Pizza(\n    _assets_images_quatro_formaggi_png__WEBPACK_IMPORTED_MODULE_2__,\n    'Ai Quattro Formaggi',\n    'Tomato sauce, mozzarella di bufula, gorgonzola, fontina cheese, grana padano',\n    '$11.99'),\n  new Pizza(\n    _assets_images_marinara_png__WEBPACK_IMPORTED_MODULE_3__,\n    'Marinara',\n    'Tomato sauce, olive oil, garlic, oregano',\n    '$8.99'),\n  new Pizza(\n    _assets_images_catupiry_png__WEBPACK_IMPORTED_MODULE_4__,\n    'Chicken with Catupiry Cheese',\n    'Tomato sauce, chicken, catupiry cheese',\n    '$10.99'),\n  new Pizza(\n    _assets_images_frutti_di_mare_png__WEBPACK_IMPORTED_MODULE_5__,\n    'Frutti di Mare',\n    'Tomato sauce, mozzarella, shrimps, squid, mussels',\n    '$12.99'),\n  new Pizza(\n    _assets_images_portuguese_png__WEBPACK_IMPORTED_MODULE_6__,\n    'Portuguese',\n    'Tomato sauce, ham, boiled eggs, onion, olive',\n    '$8.99'),\n  new Pizza(\n    _assets_images_hawaiian_png__WEBPACK_IMPORTED_MODULE_7__,\n    'Hawaiian',\n    'Tomato sauce, pineapple, prosciutto cotto',\n    '$9.99'),\n  ];\n\nconst createPizzaElement = (pizza) => {\n  //Main Container\n  const pizzaContainer = document.createElement('div');\n  const pizzaImg = document.createElement('img');\n  const pizzaName = document.createElement('h1');\n  \n  pizzaImg.src = pizza.srcImage;\n  \n  pizzaName.textContent = pizza.name;\n  \n  pizzaContainer.append(pizzaImg, pizzaName);\n  \n  function createPopup (e) {\n    const container = document.createElement('div');\n    \n    const removeButton = document.createElement('button');\n    \n    const popupDiv = document.createElement('div');\n    const pizzaIngredients = document.createElement('p');\n    const pizzaPrice = document.createElement('div');\n    \n    pizzaIngredients.textContent = pizza.ingredients;\n    pizzaPrice.textContent = pizza.price;\n    \n    popupDiv.append(\n      pizzaImg,\n      pizzaName,\n      pizzaIngredients,\n      pizzaPrice\n    );\n    \n    container.append(removeButton, popupDiv);\n    \n    container.addEventListener('click', remove);\n    \n    document.body.appendChild(container);\n  };\n  \n  function remove (e) {\n    if (e.target !== e.currentTarget) {\n      e.currentTarget.remove();\n    };\n  };\n  \n  pizzaContainer.addEventListener('click', createPopup);\n  \n  return pizzaContainer;\n};\n\nmenu = menu.map(createPizzaElement)\n\nconst menuContainer = document.createElement('div');\nmenu.forEach(pizza => menuContainer.appendChild(pizza));\n\n\n\n\n//# sourceURL=webpack://restaurant_page/./src/modules/menu.js?");
 
 /***/ }),
 
@@ -200,6 +210,66 @@ eval("module.exports = __webpack_require__.p + \"f037eedeeeb6c5479d81.svg\";\n\n
 
 /***/ }),
 
+/***/ "./src/assets/images/catupiry.png":
+/*!****************************************!*\
+  !*** ./src/assets/images/catupiry.png ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"1df454150c748a167486.png\";\n\n//# sourceURL=webpack://restaurant_page/./src/assets/images/catupiry.png?");
+
+/***/ }),
+
+/***/ "./src/assets/images/frutti-di-mare.png":
+/*!**********************************************!*\
+  !*** ./src/assets/images/frutti-di-mare.png ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"3451241662f0eb9caf8c.png\";\n\n//# sourceURL=webpack://restaurant_page/./src/assets/images/frutti-di-mare.png?");
+
+/***/ }),
+
+/***/ "./src/assets/images/hawaiian.png":
+/*!****************************************!*\
+  !*** ./src/assets/images/hawaiian.png ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"05c29191291501755f11.png\";\n\n//# sourceURL=webpack://restaurant_page/./src/assets/images/hawaiian.png?");
+
+/***/ }),
+
+/***/ "./src/assets/images/margherita.png":
+/*!******************************************!*\
+  !*** ./src/assets/images/margherita.png ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"cb2861026215681e0d64.png\";\n\n//# sourceURL=webpack://restaurant_page/./src/assets/images/margherita.png?");
+
+/***/ }),
+
+/***/ "./src/assets/images/marinara.png":
+/*!****************************************!*\
+  !*** ./src/assets/images/marinara.png ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"74b1ef387e5593b9d6e3.png\";\n\n//# sourceURL=webpack://restaurant_page/./src/assets/images/marinara.png?");
+
+/***/ }),
+
+/***/ "./src/assets/images/pepperoni.png":
+/*!*****************************************!*\
+  !*** ./src/assets/images/pepperoni.png ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"044bc7566940fb7f01ad.png\";\n\n//# sourceURL=webpack://restaurant_page/./src/assets/images/pepperoni.png?");
+
+/***/ }),
+
 /***/ "./src/assets/images/pizza-slice-icon.png":
 /*!************************************************!*\
   !*** ./src/assets/images/pizza-slice-icon.png ***!
@@ -207,6 +277,26 @@ eval("module.exports = __webpack_require__.p + \"f037eedeeeb6c5479d81.svg\";\n\n
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"d63ff35a8b3e957f4695.png\";\n\n//# sourceURL=webpack://restaurant_page/./src/assets/images/pizza-slice-icon.png?");
+
+/***/ }),
+
+/***/ "./src/assets/images/portuguese.png":
+/*!******************************************!*\
+  !*** ./src/assets/images/portuguese.png ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"9db6176a6b7dc4a17391.png\";\n\n//# sourceURL=webpack://restaurant_page/./src/assets/images/portuguese.png?");
+
+/***/ }),
+
+/***/ "./src/assets/images/quatro-formaggi.png":
+/*!***********************************************!*\
+  !*** ./src/assets/images/quatro-formaggi.png ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"060b3afa166a639e83da.png\";\n\n//# sourceURL=webpack://restaurant_page/./src/assets/images/quatro-formaggi.png?");
 
 /***/ }),
 
