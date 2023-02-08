@@ -50,7 +50,7 @@ nav > button {
   font-weight: bold;
   color: white;
   background: none;
-  padding-top: 6px;
+  padding: 6px 0;
   border: none;
   border-bottom: max(2px, .5vw) solid white;
 }
