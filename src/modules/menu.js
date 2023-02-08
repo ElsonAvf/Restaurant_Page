@@ -7,9 +7,7 @@ import fruttiDiMarePng from './../assets/images/frutti-di-mare.png';
 import portuguesePng from './../assets/images/portuguese.png';
 import hawaiianPng from './../assets/images/hawaiian.png';
 
-
-
-
+import './../assets/css/menu.css';
 
 class Pizza {
   constructor(srcImage, name, ingredients, price) {
@@ -77,13 +75,18 @@ const createPizzaElement = (pizza) => {
   
   function createPopup (e) {
     const container = document.createElement('div');
+    container.id = 'fixedPopupContainer';
     
     const removeButton = document.createElement('button');
     
     const popupDiv = document.createElement('div');
+    const pizzaImg = document.createElement('img');
+    const pizzaName = document.createElement('h1');
     const pizzaIngredients = document.createElement('p');
     const pizzaPrice = document.createElement('div');
     
+    pizzaImg.src = pizza.srcImage;
+    pizzaName.textContent = pizza.name;
     pizzaIngredients.textContent = pizza.ingredients;
     pizzaPrice.textContent = pizza.price;
     
@@ -115,6 +118,8 @@ const createPizzaElement = (pizza) => {
 menu = menu.map(createPizzaElement)
 
 const menuContainer = document.createElement('div');
+menuContainer.id = 'menuContainer';
+
 menu.forEach(pizza => menuContainer.appendChild(pizza));
 
 export {menuContainer};
