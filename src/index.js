@@ -33,7 +33,6 @@ contactTab.addEventListener('touchmove', (e) => {
 });
 //Click Events
 homeTab.addEventListener('click', () => {
-  removeHomeTabClass();
   content.firstElementChild.remove()
   content.appendChild(homeDiv);
 });
